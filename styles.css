@@ -1,0 +1,121 @@
+body{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: solid blue; /*remove once done*/
+    border-width: thick; /*remove once done*/
+    font-family: "Helvetica Neue";
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 20px;
+}  
+
+p {
+    font-size: 14px;
+}
+
+#maintitle {
+    text-align: center;
+    font-size: 24px;
+}  
+
+.collapsible {
+    background-color: #003585;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+  
+.active, .collapsible:hover {
+    background-color: rgb(255, 102, 0, 0.5);
+    color: black;
+}
+  
+
+.content {
+    border: solid green; /*remove once done*/
+    border-width: thick; /*remove once done*/
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.text {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: solid pink; /*remove once done*/
+    border-width: thick; /*remove once done*/
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.intro-content {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: solid pink; /*remove once done*/
+    border-width: thick; /*remove once done*/
+}
+
+.intro-content h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.intro-content p {
+    font-size: 14px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #003585;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color:white; /*change color later*/
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar a:hover, .navbar a:active {
+    background-color: rgb(255, 102, 0);
+}
+
+.navbar li{
+    float: left;
+}
+
+.graphs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
